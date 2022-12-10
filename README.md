@@ -1,2 +1,2 @@
 # doodoo
-Description Experimental Web Service for testing Render hosting
+Experimental Web Service for testing Render hosting
