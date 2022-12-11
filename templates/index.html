@@ -10,10 +10,16 @@
 </head>
 
 <body>
-    <h1> hello. this pages renders from a template</h1>
+    <h1> hello.</h1>
+
+    <p>this page attempts to extract information from the user and then: </p>
+    <ol>
+        <li>tries to insert it into a locally stored sql database, where visual studio code is running locally, but the code is pushed to git hub</li>
+        <li>tries to insert it into a sql database hosted on supabase, and where the code is hosted by render</li>
+    </ol>
 
 
-    <form action="/login" method="post">
+    <form action="/details" method="post">
         
         <p>What's your name and age. I'll insert it into a database</p>
         <div>
